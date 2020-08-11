@@ -2,6 +2,10 @@ package testEnum;
 
 import org.junit.Test;
 
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @ClassName JavaBasic
  * @Author Songleen
@@ -27,5 +31,17 @@ public class EnumTest {
         SeasonEnum season2 = SeasonEnum.SPRING;
         season2.show();
 
+    }
+
+    @Test
+    public void testArray() {
+        HashMap<String, Object> map = new HashMap<>();
+        map.put("a", "abc");
+
+    }
+
+    public static void main(String[] args) {
+        Map<String, Object> cmap = new ConcurrentHashMap<>(3);
+        cmap.put("a", "abc");
     }
 }
