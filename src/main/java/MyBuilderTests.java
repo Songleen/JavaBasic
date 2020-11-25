@@ -9,6 +9,7 @@ public class MyBuilderTests {
         StringBuilder builder = new StringBuilder();
         builder.append("abc");
         builder.append("cd");
+        builder.append("cd");
         System.out.println(builder);
         System.out.println("这是第三次提交");
     }
