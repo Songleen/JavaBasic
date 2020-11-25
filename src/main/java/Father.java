@@ -18,6 +18,7 @@ public class Father {
     public static void main(String[] args) {
         HashMap<String, Object> map = new HashMap<>();
         map.put("abc","哈哈啊哈");
+        map.put("cde","这是第三次提交");
         URL[] urLs = Launcher.getBootstrapClassPath().getURLs();
         for (URL urL : urLs) {
             System.out.println(urL.toExternalForm());

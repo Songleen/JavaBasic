@@ -10,5 +10,6 @@ public class MyBuilderTests {
         builder.append("abc");
         builder.append("cd");
         System.out.println(builder);
+        System.out.println("这是第三次提交");
     }
 }
