@@ -7,6 +7,7 @@ package com.atguigu;
  */
 public class StudentClient {
     public static void main(String[] args) {
+        System.out.println("新增一段话");
         System.out.println("只是打印一段话");
     }
 }
